@@ -159,13 +159,7 @@ export default function Generator(props) {
           );
         })}
       </div>
-      <Button
-        func={updateWorkout}
-        onClick={() => {
-          window.location.href = "#workout";
-        }}
-        text={"Generate Workout"}
-      />
+      <Button func={updateWorkout} text={"Generate Workout"} />
     </SectionWrapper>
   );
 }
